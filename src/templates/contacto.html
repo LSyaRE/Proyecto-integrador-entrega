@@ -1,0 +1,45 @@
+{%extends "layout.html"%}
+
+{% block content %}
+
+{% with messages= get_flashed_messages() %}
+{% if messages %}
+{% for message in messages %}
+<p>
+    {{message}}
+</p>
+{% endfor %}
+{% endif %}
+{% endwith %}
+
+<form action="/add_contacto" , method="POST">
+    <div class="mb-3"></div>
+
+    <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+    <input type="text" name="name" placeholder="nombre">
+
+    <label for="exampleFormControlInput1" class="form-label">Apellido</label>
+    <input type="text" name="Sname" placeholder="apellido">
+
+    <label for="exampleFormControlInput1" class="form-label">Correo</label>
+    <input type="email" name="email" placeholder="email">
+
+    <label for="exampleFormControlInput1" class="form-label">Asunto</label>
+    <input type="text" name="asunt" placeholder="asunto">
+
+    <label for="exampleFormControlInput1" class="form-label">Mensaje</label>
+    <textarea type="text" name="message" placeholder="Escriba si esta interesado/a">
+</textarea>
+
+    <button type="submit">
+        Save
+    </button>
+
+</form>
+
+
+</div>
+
+
+
+{% endblock %}

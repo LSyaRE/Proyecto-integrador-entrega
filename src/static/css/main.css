@@ -1,0 +1,84 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    
+    }
+
+
+
+    .main{
+
+        background-image: url("https://www.65ymas.com/uploads/s1/21/14/25/contratar-alarma-de-seguridad.jpeg");
+        background-size: 100%;
+        background-position: bottom; 
+        overflow: hidden;
+        height: 80vh;
+        
+        
+        
+        }
+        
+        
+        .main .title{
+        
+        width: 300px;
+        height: 50px;
+        text-align: center;
+        color: rgb(177, 6, 6);
+        top: calc(80vh - 50%);
+        left: 50%;
+        position: absolute;
+        margin-left: -230px;
+        font-size: 100px;
+        
+        
+        }
+
+.album{
+    text-align: center;
+}
+.footer{
+    height: 20vh;
+    background-color: #ccc;
+   
+    
+    }
+
+    .footer img{
+        position: relative;
+        top:-10px;
+        left: 110px;
+        height: 80px;
+        align-items:stretch;
+
+    }
+
+    .footer .Derechos{
+        position: relative;
+        top:-70px;
+        text-align: center;
+    }
+    .footer .textcontac{
+    
+    text-align: right;   
+    }
+
+
+    section{
+
+        position: absolute;
+        top: 200px;
+        left: 450px;
+        width: 1000px;
+        min-height: 100vh;
+        background: url("https://scontent.fuio1-1.fna.fbcdn.net/v/t1.18169-9/270620_1798263168452_8196247_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=cdbe9c&_nc_ohc=JGVdyrZZxZUAX-ym1sQ&_nc_ht=scontent.fuio1-1.fna&oh=dab719fbad3aa1eb1df53d514925d87a&oe=6159C031");
+        background-size: cover;
+        transition: 5s;
+        filter: blur(10px);     
+    }
+section:hover{
+    transition: ease-out 5s;
+    box-shadow: 0 25px 60px     rgba(0, 0, 0, 0.8);
+    filter: blur(); 
+}
